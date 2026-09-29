@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handlee&display=swap');
+
+section {
+    background-color: #801336;
+    width: 90vw;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 2rem;    
+    align-items: center;
+}
+
+#banner {
+    width: 90vw;
+    border-radius: 20px 20px 0 0;
+    margin: -2rem;
+}
+
+#header {
+    display: flex;
+    gap: 2rem;
+    width: 85vw;
+    justify-content: flex-end;
+}
+
+body {
+    color: white;
+    font-size: 2rem;
+    background-color: #2D132C;
+    
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  user-select: none;
+  font-family: "Handlee", cursive;
+}
+
+#btnshow, button {
+    background-color: #F63049;
+    color: #f2f2f2;
+    border-radius: 10px;
+    font-size: 2rem;
+    border: 2px solid #d6d6d6;
+    padding: 1rem;
+}
+
+button:hover {
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.43);
+}
+
+dialog {
+    border-radius: 10px;
+    background-color: #C72C41;
+    border: none;
+    color: white;
+}
+
+#inputpass {
+    border-radius: 10px;
+    color: #ff1515;
+    font-size: 2rem;
+}
+
+#img {
+    border-radius: 5px;
+    max-width: 33vw;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #cdcdcd;
+}
+
+a {
+    color: #ff742a;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #ff4055;
+}
+
+#color {
+    color: #ff4a2a;
+}
+
+#marker {
+    background-image: linear-gradient(to right, #EE4540 100%, #EE4540 100%);
+            background-repeat: no-repeat;
+    animation: markup 2.5s ease-out forwards;
+    background-position: left-bottom;
+    animation-delay: 2s;
+    background-size: 0% 100%;
+    border-radius: 5px;
+}
+
+@keyframes markup {
+from { background-size: 0% 100%; }
+to {
+      background-size: 100% 80%;
+      color: #1c1c1c;     
+    }
+}
